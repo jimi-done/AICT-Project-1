@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Models</title>
+    <style>
+     
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+          
+        }
+       
+
+      
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: #444;
+            text-align: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            color: #f0a500;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('iphones-7479304_1280.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 6rem 1rem;
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        @keyframes hovereffect
+         {
+            0%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+            50%{
+              transform: scale(1.1);
+              background-color: #555;
+            }
+            100%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+        }
+                                                                                    
+        .hero button {
+            border: none;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            margin-top: 2rem;
+            cursor: pointer;
+            animation : hovereffect 2s infinite;
+        }
+
+        
+
+        /* Models Section */
+        .models {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .models h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .model-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .model-card {
+            background: #f4f4f4;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .model-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+      
+
+
+        .model-card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        .model-card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        /* Footer */
+     
+footer {
+    background: #333;
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: left; 
+}
+
+
+.footer-menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    margin-bottom: 1rem; 
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.footer-menu a:hover {
+    color: #00bcd4; 
+}
+
+footer p {
+    font-size: 1rem;
+    margin-top: 1.5rem; 
+}
+
+    </style>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <h1>iPhone Models</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="modelsiphonepage.html">Models</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover the Latest iPhone Models</h2>
+        <p>Explore the cutting-edge technology and design of Apple's iPhone series.</p>
+        <a href="modelsiphonepage.html">
+        <button >Learn More</button>
+    </a>
+    </section>
+
+    <!-- Models Section -->
+    <section class="models" id="models">
+        <h2 style="background-color: #555;">Our Models</h2>
+        <hr>
+        <div class="model-grid">
+            <div class="model-card">
+                <a href="iphone12.html">
+                <img id="hoverImage" src="iphone12(1).jpg" alt="iPhone 12 ">
+                <script src="script3.js"></script>
+            </a>
+                <h3>iPhone 12</h3>
+           
+                <p>The ultimate iPhone with advanced features.</p>
+            </div>
+            <div class="model-card">
+                <a href="iphone13.html">
+                <img src="istockphoto-1688218978-612x612.jpg" alt="iPhone 14">
+            </a>
+                <h3>iPhone 13</h3>
+                <p>Powerful, sleek, and user-friendly.</p>
+            </div>
+            <div class="model-card">
+
+                <a href="iphone14.html">
+                    <img id="hovemage" src="iphone14pro(1).jpg" alt="iPhone 14">
+                </a>
+                <script src="script.js" defer></script>
+                
+                <h3>iPhone 14 pro</h3>
+                <p>Performance and design in perfect harmony.</p>
+            </div>
+            <div class="model-card">
+                <a href="iphoneSE.html">
+                <img id="hoverImage" src="iphonese1.png" alt="iPhone SE">
+                <script src="script2.js"></script>
+            </a>
+                <h3>iPhone SE</h3>
+                <p>Compact and powerful for everyday use.</p>
+            </div>             
+        </div>
+    </section>
+    
+  <!-- Footer Section -->
+<footer class="footer">
+    <nav>
+        <ul class="footer-menu">
+            <li><a href="aboutpage.html">• About Us</a></li>
+            <li><a href="contactpage.html">• Contact</a></li>
+            <li><a href="modelsiphonepage.html">• Models</a></li><br>
+            <li><a href="landing page.html">• Home</a></li>
+        </ul>
+        <p style="font-size: larger;">➡ Our iphone models are:</p>
+        <ul class="footer-menu" >
+            <li ><a href="iphone14.html">• iphone 14 pro</a></li><br>
+            <li><a href="iphone13.html"> • iphone 13</a></li><br>
+            <li><a href="iphone12.html">• iphone 12</a></li><br>
+            <li><a href="iphoneSE.html">• iphone SE</a></li><br>            
+              
+        </ul>
+    </nav>
+    <p style="text-align: center;">&copy; 2024 Models of iphone. All Rights Reserved.</p>
+</footer>
+
+<script  id="hovemage" src="script1.js"  ></script> 
+</body>
+</html>

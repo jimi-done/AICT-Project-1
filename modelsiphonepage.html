@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Models</title>
+    <style>
+      
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+      
+        body
+         {
+       font-size: 16px;
+         }
+         @media (max-width: 768px) 
+         {
+       body
+    
+       {
+        font-size: 14px;
+     }
+     }
+     img, video {
+           max-width: 100%;
+      height: auto;
+    }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Models Section */
+        .models {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .models h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .model-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .model-card {
+            background: #f4f4f4;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .model-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .model-card h3 {
+            margin: 1rem 0 0.5rem;
+        }
+
+        .model-card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        @keyframes hovereffect
+         {
+            0%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+            50%{
+              transform: scale(1.1);
+              background-color: #555;
+            }
+            100%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+         
+            padding-left:5% ;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+        /* Footer Styling */
+        .footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 20%;
+    padding-top: 5%;
+    
+       }
+
+  
+
+    .footer-menu li {
+        display: inline;
+    }
+
+    .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    }
+
+    .footer-menu a:hover {
+    color: #00bcd4;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Our iPhone Models</h1>
+    </header>
+
+    <!-- Models Section -->
+ <section class="models">
+     <h2 style="background-color: #555;">Explore the iPhone Collection</h2>
+        <div class="model-grid">
+            <div class="model-card">
+                  <a href="iphone14.html"  >
+                    <img  src="iphone14pro(1).jpg" alt="First Image" >
+                  </a>
+                  <h3>iPhone 14 pro </h3>
+                 <p>The ultimate iPhone with advanced features and performance.</p>
+            </div>
+            <div class="model-card">
+                  <a href="iphone13.html">
+                
+                  <img src="istockphoto-1688218978-612x612.jpg" alt="iPhone 14">
+                  </a>
+                  <h3>iPhone 13</h3>
+           
+                  <p>Experience power and elegance in a sleek design.</p>
+            </div>
+            <div class="model-card">
+                <a href="iphone12.html">
+                <img src="iphone12(1).jpg" alt="iPhone 13">
+                </a>
+
+                <h3>iPhone 12</h3>
+           
+                <p>A balance of performance and affordability.</p>
+            </div>
+            <div class="model-card">
+                <a href="iphoneSE.html" class="btn">
+                <img src="iphonese1.png" alt="iPhone se">
+           
+                </a>
+                <h3>iPhone SE</h3>
+                <p>Compact, powerful, and budget-friendly.</p>
+            </div>
+          
+        </div>
+              <div class="model-card" style="width: 21%;margin-top: 5%;">
+                 <a href="iphone11.html" class="btn">
+                 <img src="iphone11.jpg" alt="iPhone SE">
+                 </a>
+                 <h3>iPhone 11</h3>
+                 <p>Compact, powerful, and budget-friendly.</p>
+              </div>
+      
+  
+    </section>
+    <a href="landing page.html">
+    <button style= " border: none; color: white; padding: 1rem 2rem; font-size: 1rem; margin-top: 2rem; cursor: pointer;animation: hovereffect 2s infinite;margin-left: 50%;">Back to home</button>
+</a>
+    <!-- Footer -->
+<footer class="footer">
+    <p style="font-size: larger;">➡Footer Menu</p>
+    <nav >
+        <ul class="footer-menu" >
+            <li ><a href="landing page.html">• Home</a></li><br>
+            <li><a href="modelsiphonepage.html"> • Models</a></li><br>
+            <li><a href="contactpage.html">• Contact</a></li><br>
+            <li><a href="aboutpage.html">• About</a></li><br>            
+              
+        </ul>
+        <p style="font-size: larger;">➡ Our iphone models are:</p>
+        <ul class="footer-menu" >
+            <li><a href="iphone14.html">• iphone 14 pro</a></li><br>
+            <li><a href="iphone13.html">• iphone 13</a></li><br>
+            <li><a href="iphone12.html">• iphone 12</a></li><br>
+            <li><a href="iphoneSE.html">• iphone SE</a></li><br>            
+              
+        </ul>
+
+    </nav>
+   
+   
+    <p style="text-align: center;">&copy; @2024 Models of iphone. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

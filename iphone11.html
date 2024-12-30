@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 2rem;
+        }
+
+        .image {
+            flex: 1;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .details {
+            flex: 1;
+            max-width: 400px;
+            padding: 1rem;
+        }
+
+        .details h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .details p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .details ul {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+            color: #333;
+        }
+
+        .details ul li {
+            margin-bottom: 0.5rem;
+        }
+        @keyframes hovereffect
+         {
+            0%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+            50%{
+              transform: scale(1.1);
+              background-color: #555;
+            }
+            100%{
+                transform: scale(1);
+                background-color: yellow;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="iphone11.jpg" alt="iPhone Image">
+        </div>
+        <div class="details">
+            <h1>iPhone 11</h1>
+            <p>The iPhone 11 is the latest innovation from Apple, featuring a sleek design, advanced technology, and unmatched performance.</p>
+            <ul>
+                <li>IP68 dust/water resistant (up to 2m for 30 min)
+                    Apple Pay (Visa, MasterCard, AMEX certified)</li>
+                <li>Liquid Retina IPS LCD, 625 nits (typ)</li>
+                <li>iOS 13, upgradable to iOS 18.2</li>
+                <li></li>64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM</li>
+                <li>Dual-LED dual-tone flash, HDR (photo/panorama)</li>
+            </ul>
+        </div>
+    </div>
+    <a href="modelsiphonepage.html">
+        <button style= " border: none; color: white; padding: 1rem 2rem; font-size: 1rem; margin-top: 2rem; cursor: pointer;animation: hovereffect 2s infinite;margin-left: 50%;">Back to Models</button>
+    </a>
+</body>
+</html>
